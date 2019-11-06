@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Verdana;
+  }
+  
+  .header {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background: darkred;
+    font-size: 3vmin;
+    color: white;
+    padding: 1vw 0;
+  }
+  
+  .main {
+    width: 50%;
+    height: auto;
+    background: lightgrey;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 3vmin;
+    font-weight: bold;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+  }
+  
+  li {
+    padding: 2vmin 0;
+    transition: 0.3s;
+  }
+  
+  .ben {
+    background:#C0C0C0;
+    color: white;
+    background-attachment: fixed;
+    background-image: url('https://krovgrad.by/wp-content/uploads/2018/02/cropped-%D0%B3%D0%B0%D0%BB%D0%BE%D1%87%D0%BA%D0%B0-1.png'), linear-gradient(silver, grey);;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 50% 10%;
+    text-decoration: line-through;
+  }
+  
