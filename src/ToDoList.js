@@ -9,8 +9,8 @@ class ToDoList extends Component {
 
   render() {
     return(
-      <div className="wrapper">
-            <div className="header">
+      <div className = "wrapper">
+            <div className = "header">
                   <h1>ISTC To Do List</h1>
           </div>
           <div className = "main">
